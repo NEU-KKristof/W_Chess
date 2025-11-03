@@ -6,8 +6,9 @@ A stílusok és a JS is átkerült a header.php-ba, hogy globálisan elérhető 
 DE a jobb átláthatóság kedvéért a JS-t itt hagyom,
 viszont a stílusokat a header-be tettem.
 -->
-
-<h2>Online Sakk</h2>
+<br>
+ <h2><strong>Online Sakk</strong> </h2>   
+<hr>
 <p>Játssz egy partit! A meccsek mentése hamarosan beépítésre kerül...</p>
 
 <!-- Játék vége felugró ablak -->
@@ -23,9 +24,13 @@ viszont a stílusokat a header-be tettem.
 </div>
 
 <!-- A sakktábla helye -->
-<table>
+ <center>
+    <table>
     <tbody id="sakktabla"></tbody>
 </table>
+<br>
+ </center>
+
 
 <!-- 
   TODO: A jövőben ezt a scriptet össze kell kötni a `saveMatch()` funkcióval,
