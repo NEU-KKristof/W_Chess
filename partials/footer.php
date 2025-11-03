@@ -2,7 +2,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; <?php echo date('Y'); ?> Minden jog fenntartva.</p>
+            <p> <?php echo date('Y.m.d'); ?> Minden jog fenttartva!</p>
         </div>
     </footer>
 
