@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Sakk Adatbázissal</title>
+    <title>Online Sakk</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- Egyszerű stílus, hogy nézzen ki valahogy -->
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f4; margin: 0; padding: 0; }
-        .container { max-width: 960px; margin: auto; padding: 0 20px; }
-        header { background: #333; color: #fff; padding: 1rem 0; }
+        .container { max-width: 90%; margin: auto; padding: 0 20px; }
+        header { background: #333; color: #fff; padding: 15px 0; }
         header h1 { text-align: center; margin: 0; padding-bottom: 10px; }
         nav { background: #444; }
         nav ul { padding: 0; margin: 0; list-style: none; display: flex; justify-content: center; }
-        nav ul li a { color: #fff; padding: 15px 20px; display: block; text-decoration: none; }
-        nav ul li a:hover, nav ul li a.active { background: #555; }
+        nav ul li a { color: #fff; padding: 15px 20px; display: block; text-decoration: none; border-radius:10px }
+        nav ul li a:hover { background: #1a0101ff; color: #fff;  }
         main { background: #fff; padding: 20px; margin-top: 20px; border-radius: 5px; min-height: 300px; }
         footer { text-align: center; padding: 20px; margin-top: 20px; color: #777; }
 
@@ -50,7 +52,7 @@
 
     <header>
         <div class="container">
-            <h1>Online Sakk</h1>
+            <img src="./partials/logo.png" alt="" style="float: left" width="50px" height="50px"> <h1><strong>Online Sakk</strong> </h1>
         </div>
         <nav>
             <div class="container">
