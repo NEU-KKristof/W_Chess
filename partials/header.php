@@ -52,7 +52,8 @@
 
     <header>
         <div class="container">
-            <img src="./partials/logo.png" alt="" style="float: left" width="50px" height="50px"> <h1><strong>Online Sakk</strong> </h1>
+        <a href="index.php?page=home" class="<?php echo ($page == 'home') ? 'active' : ''; ?>"><img src="./partials/logo4.jpg" alt="" style="float: left; border-radius:40px" width="65px" height="50px" > </a>
+        <h1><strong>Online Sakk</strong> </h1>
         </div>
         <nav>
             <div class="container">
