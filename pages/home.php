@@ -19,13 +19,14 @@
 <?php if (isset($_SESSION['user'])): ?>
     <p>Szia, <strong><?php echo htmlspecialchars($_SESSION['user']['username']); ?></strong>!</p>
     <p>Kattints a "Sakk Játék" gombra egy új partiért, vagy nézd meg a "Profil" oldaladat a korábbi meccseidért.</p>
+    <a href="index.php?page=chess" class="<?php echo ($page == 'chess') ? 'active' : ''; ?>"><button>Sakk Játék</button></a>
 <?php else: ?>
     <br>
     <p>A meccseid mentéséhez és a profilod megtekintéséhez kérlek, jelentkez be vagy regisztrálj! <br>
     <a href="index.php?page=login" ><button ><strong>Bejelentkezés</strong></button></a> <br>
     
     
-    <a href="index.php?page=register"><button style=" hover:"><strong>Regisztráció</strong></button></a>
+    <a href="index.php?page=register"><button><strong>Regisztráció</strong></button></a>
     </center>
     </p>
 <?php endif; ?>
