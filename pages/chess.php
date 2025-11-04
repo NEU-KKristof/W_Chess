@@ -1,11 +1,3 @@
-<!--
-Ez a fájl tartalmazza a feltöltött index3.html tartalmát,
-de a <html>, <head>, <body> tagek NÉLKÜL,
-mert azokat már a header.php és footer.php biztosítja.
-A stílusok és a JS is átkerült a header.php-ba, hogy globálisan elérhető legyen.
-DE a jobb átláthatóság kedvéért a JS-t itt hagyom,
-viszont a stílusokat a header-be tettem.
--->
 <br>
  <h2><strong>Online Sakk</strong> </h2>   
 <hr>
@@ -483,3 +475,4 @@ viszont a stílusokat a header-be tettem.
         }
     });
 </script>
+
