@@ -1,8 +1,7 @@
 <?php
 // --- 1. ADATBÁZIS KAPCSOLAT BEÁLLÍTÁSAI ---
-// *** FONTOS: Ezeket írd át a saját adataidra! ***
 $db_host = '127.0.0.1'; // Vagy 'localhost'
-$db_name = 'sakk_adatbazis'; // Hozz létre egy ilyen nevű adatbázist (pl. phpMyAdmin-ben)
+$db_name = 'sakk_adatbazis'; // Hozz létre egy ilyen nevű adatbázist (sakk_adatbazis)
 $db_user = 'root'; // Az adatbázis felhasználóneved
 $db_pass = ''; // Az adatbázis jelszavad (XAMPP esetén alapból üres)
 
@@ -185,3 +184,4 @@ function getMatchesForUser($pdo, $userId) {
 }
 
 ?>
+
