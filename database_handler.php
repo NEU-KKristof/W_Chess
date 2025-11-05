@@ -166,16 +166,11 @@ function getMatchesForUser($pdo, $userId) {
         JOIN users b ON m.user_id_black = b.id
         WHERE m.user_id_white = ? OR m.user_id_black = ?
     ");
-    // NOTE: Az `orderBy` használata indexek nélkül lassú lehet nagy adatbázisnál, de itt demonstrációs célra jó.
-    // ORDER BY m.played_at DESC 
     
     $stmt->execute([$userId, $userId]);
     
-    // Összes meccs lekérése asszociatív tömbként
     $allMatches = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
-    // Adatok rendezése PHP-ben az indexelési problémák elkerülése végett
-    // Legújabb meccs legyen elöl
     usort($allMatches, function($a, $b) {
         return strtotime($b['played_at']) - strtotime($a['played_at']);
     });
@@ -184,4 +179,5 @@ function getMatchesForUser($pdo, $userId) {
 }
 
 ?>
+
 
