@@ -7,4 +7,4 @@ put the files into C:\xampp\htdocs and create a folder and you will access it li
 put the SQL commands into the localhost admin tab <br>
 <br>
 
-DO NOT EVER OPEN THE 
+DO NOT EVER OPEN THE Don't click on me.exe or you are going to have a blue time
