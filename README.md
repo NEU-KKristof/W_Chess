@@ -1,5 +1,9 @@
 # W_Chess
 This SHIT IS MADE BY US
+<br>
+The header and footer in the: "partials" folder and the other pages in the: "".
+<br>
+
 
 Setup <br>
 put the files into C:\xampp\htdocs and create a folder and you will access it like this (localhost/"your folder name") <br>
