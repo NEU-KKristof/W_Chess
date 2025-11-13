@@ -1,7 +1,7 @@
 # W_Chess
 This SHIT IS MADE BY US
 <br>
-The header and footer in the: "partials" folder and the other pages in the: "".
+The header and footer in the: "partials" folder and the other pages in the: "pages".
 <br>
 
 
